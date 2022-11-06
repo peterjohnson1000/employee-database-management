@@ -58,3 +58,19 @@ header button:hover {
   text-align: center;
   padding-bottom: 10px;
 }
+
+.employee_styling {
+  display: flex;
+  padding: 0.5rem 1rem;
+  background-color: var(--item-bg);
+  margin: 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
+
+.employee_styling:hover,
+.selected {
+  background-color: var(--btn);
+}
